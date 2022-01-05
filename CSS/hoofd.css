@@ -1,0 +1,64 @@
+/*
+  CSS instellingen voor de Index.html
+*/
+
+/* -=[HEADER + MENU]=----------------------------------------------------- */
+ul a
+{
+  color: orange;
+  text-decoration: none;
+}
+li
+{
+  display: inline-block;
+  height: 18px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 1px solid black;
+  background-color: #808080;
+}
+li:hover
+{
+  background-color: yellow;
+  border-style: dashed;
+}
+
+/* -=[BODY]=--------------------------------------------------------------- */
+body
+{
+  background-color: #FFFAF0;
+}
+
+.Centreren
+{
+  max-width: 600px;
+  margin: auto;
+  border: none;
+  background: GhostWhite;
+  padding: 10px;
+}
+
+ul.Eigenschappen li
+{
+  margin: 0;
+  padding: 4px;
+  width: 200px;
+  text-align: left;
+  background: GhostWhite;
+  color: gold;
+  border: 1px solid black;
+  border-radius: 8px;
+  list-style-type: circle;
+}
+
+/* -=[FOOTER]=------------------------------------------------------------- */
+footer
+{
+  text-align: center;
+  padding: 10px;
+}

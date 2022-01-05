@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+
+    <meta name="description" content="NHA Les">
+    <meta name="keywords" content="Cursus web">
+    <meta name="author" content="W. de Langen.">
+
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
+
+  </head>
+
+  <body>
+    <div class="Centreren">
+      <header class="Contact">
+        <ul>
+          &nbsp;
+          <li><a href="../index.html">Hoofd</a></li>
+          <li><a href="mijncv.html">Mijn CV</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <form
+        class="ContactFormulier"
+        action="https://formspree.io/f/mwkypwyb"
+        method="post"
+        >
+        <input type="text" name="cVoorNaam" placeholder="Voornaam.">
+        <input type="text" name="cAchterNaam" placeholder="Achternaam.">
+
+        <label for="Provincie">Provincie</label>
+        <select id="Provincie" name="cProvincie">
+          <option value="Friesland">Friesland</option>
+          <option value="Groningen">Groningen</option>
+          <option value="Drenthe">Drenthe</option>
+          <option value="Noord-Holland">Noord-Holland</option>
+          <option value="Flevoland">Flevoland</option>
+          <option value="Overijssel">Overijssel</option>
+          <option value="Zuid-Holland">Zuid-Holland</option>
+          <option value="Utrecht">Utrecht</option>
+          <option value="Gelderland">Gelderland</option>
+          <option value="Zeeland">Zeeland</option>
+          <option value="Noord-Brabant">Noord-Brabant</option>
+          <option value="Limburg">Limburg</option>
+        </select>
+
+        <input type="email" name="cEmailAdres" placeholder="Email adres.">
+        <input type="tel" name="cTelefoon" placeholder="Telefoonnummer.">
+        <textarea name="cBericht" placeholder="Uw bericht."></textarea>
+
+        <br>
+        <button type="submit"><strong>Verzend</strong></button>
+      </form>
+
+      <footer>
+        <p><small>&copy; Copyright 2021, de langen</small></p>
+      </footer>
+
+    </div>
+  </body>
+
+</html>
